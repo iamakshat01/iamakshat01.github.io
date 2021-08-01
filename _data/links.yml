@@ -1,0 +1,16 @@
+- name: Email
+  logo: fa fa-envelope
+  link: mailto:akshatmangaliiitg@gmail.com
+
+- name: Twitter
+  logo: fa fa-twitter
+  link: https://twitter.com/iamakshat01
+
+- name: Linkedin
+  logo: fa fa-linkedin
+  link: https://www.linkedin.com/in/mangal-akshat/
+
+- name: Github
+  logo: fa fa-github
+  link: https://github.com/iamakshat01
+

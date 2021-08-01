@@ -1,0 +1,16 @@
+title: "Akshat Mangal"
+email: akshatmangaliiitg@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my portfolio website!
+google_analytics: "UA-XXXXXXXX-X"
+baseurl: "/" 
+url: "/" 
+twitter_username: iamakshat01
+github_username:  iamakshat01
+
+sass:
+  sass_dir: _sass
+
+icon: /assets/img/icon.jpg
+# resume link
+resume: https://drive.google.com/file/d/1Lk9X7JNhGXleo6gLeTC0PHBzTKqWzsEc/view?usp=sharing

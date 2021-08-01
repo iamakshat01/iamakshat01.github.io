@@ -1,0 +1,39 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+    {% include navbar.html %}
+
+    {% include profile.html %}
+
+    {% include projects.html %}
+
+    {% include education.html %}
+
+    {% include experience.html %}
+
+    {% include links.html %}
+
+    <script>
+        const toggleBtn = document.querySelector('.white-circle')
+        const blueBtn = document.querySelector('.blue-rectangle')
+        const appBody = document.getElementsByTagName('body')[0];
+
+        blueBtn.addEventListener('click', () => {
+            appBody.classList.toggle('dark-theme')
+            toggleBtn.classList.toggle('toggleRight')
+        })
+    </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400
+	});
+    </script>  
+</body>
+
+</html>
